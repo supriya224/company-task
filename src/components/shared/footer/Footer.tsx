@@ -8,7 +8,7 @@ const Footer = () => {
       {/* footer content */}
       <div className={styles.footer_content}>
         {/* icon with tollfree no */}
-        <a href="#">
+        <a href="/">
           <p className={styles.footer_paragraph}>
             <PhoneCall size={20} /> Toll free 1800 200 1234
           </p>
