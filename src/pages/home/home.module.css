@@ -1,0 +1,5 @@
+/* w-auto bg-gradient-to-t from-yellow-100 */
+.home_container{
+    background:  linear-gradient(white 0%, rgb(251, 235, 128) 100%);
+
+}

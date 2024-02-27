@@ -1,0 +1,29 @@
+/* Default styles */
+h3 {
+    text-align: center;
+}
+
+.products_details_contents {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 2rem 1rem;
+}
+
+.products_details_span {
+    gap: 2;
+    padding: 2px;
+    border-right: 2px solid rgb(171, 32, 17);
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+    .products_details_contents {
+        margin: 1rem 0.5rem; /* Adjust margin for smaller screens */
+    }
+
+    .products_details_span {
+        margin: 0 0.5rem; /* Adjust margin for smaller screens */
+    }
+}

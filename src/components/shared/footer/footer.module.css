@@ -1,0 +1,32 @@
+/* Default styles */
+.footer_container {
+    width: 100%;
+    background-color: rgb(254, 53, 53);
+    /* margin: 2rem 2rem; */
+}
+
+.footer_content {
+    padding: 2rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 9;
+}
+
+a {
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .footer_content {
+        padding: 1rem; /* Adjust padding for smaller screens */
+        justify-content: center; /* Center align items on smaller screens */
+        display: flex;
+        flex-direction: column;
+    }
+}

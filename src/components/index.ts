@@ -1,0 +1,5 @@
+export {default as Header} from './shared/header/Header'
+export {default as Footer} from './shared/footer/Footer'
+export {default as Section} from './core/section/section'
+export {default as ProductItems} from './core/products/productItems'
+export {default as ProductsDetails} from './core/products/productDetails'

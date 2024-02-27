@@ -1,0 +1,17 @@
+/* Default styles */
+.header_container {
+    width: auto;
+    /* background: red; */
+}
+
+.header_container_image {
+    display: flex;
+    justify-content: center;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .header_container {
+        padding: 0 1rem; /* Adjust padding for smaller screens */
+    }
+}
